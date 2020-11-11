@@ -1,0 +1,17 @@
+.heading{
+
+    text-align: center;
+}
+
+#form-container{
+
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/05/15/20/58/traffic-3404254_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
