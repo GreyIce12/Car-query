@@ -1,0 +1,57 @@
+.heading{
+
+    text-align: center;
+}
+
+#form-container{
+
+    display: flex;
+    justify-content: center;
+}
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2018/05/15/20/58/traffic-3404254_960_720.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.popup-skirt{
+
+    background: rgba(44, 44, 44, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+
+}
+
+.popup{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    width: 100%;
+    max-width: 300px;
+    margin: 10% auto;
+    padding: 20px;
+    background: rgb(0, 124, 226);
+    position: relative;
+}
+
+.popup a{
+
+      background: crimson;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+}
+
+.x-out{
+
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    cursor: pointer;
+}
